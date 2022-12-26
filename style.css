@@ -1,0 +1,84 @@
+/*style du body */
+body
+{   
+    background: url("background.jfif") fixed center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* Photo de profil */
+p
+{
+    text-align: center;
+}
+/* Apparence de h1 */
+h1
+{
+    color: rgb(185, 59, 13);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-align: center;
+
+}
+section{
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0 auto;
+    margin: 6em;
+}
+/*balbla du h2*/
+h2
+{
+    color: rgb(156, 134, 134);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: unset;
+    text-align: center;
+    width: fit-content;
+    border: 2px solid #fffa;
+    border-radius: 10px;
+    padding: 0.8em;
+    margin: 1.5em 0;
+    background-color: #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);;
+}
+/* Bordure des listes à puce li */
+ul
+{
+    border: 3px rgb(226, 116, 116) outset;
+    border-radius: 10px;
+    color: rgb(78, 77, 77);
+    margin-bottom: 20px;
+    margin-top: 0px;
+    list-style: none;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    width: 55%;
+}
+/*et encore du blabla pour le lien */
+a:hover
+{   
+    text-decoration: none;
+    color:rgb(197, 93, 62)
+}
+/*blabla pour le liste à puce*/
+li
+{
+    text-align: justify;
+}
+
+p > a > img{
+    border-radius: 120px;
+    border: 2px solid snow;
+}
+
+section > img{
+    max-width: 35%;
+    max-height: 60%;
+    float: right;
+    border-radius: 1em;
+}
+footer{
+    text-decoration: none;
+    list-style: none;
+    padding:  0 auto;
+    margin: 6em;
+}
