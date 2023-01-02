@@ -1,5 +1,3 @@
 # juzosp.github.io
 Hello world!
-This is my first project as a developper 
-Hope you like it
-Thank you!
+     I'm Hasina a 3rd years computer science student! Based in Madagascar. Hope you all enjoy my work. Thank you!
